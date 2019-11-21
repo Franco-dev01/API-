@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+   <% donne.forEach(el=>{%> %>
+    <h4><%=el.item%></h4>
+    <img src=/home/francis/Pictures/<%=el.image%> width="100" height="100">
+    <p><%=el.description%></p>
+    <p><%=el.prix%></p>
+    <p><%=el.commerçants%></p>
+    <p><%=el.contact%></p>
+    <p><%=el.localisation%></p>
+
+
+   <%})%>
+  </body>
+</html>
